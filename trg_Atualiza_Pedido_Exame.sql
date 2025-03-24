@@ -38,13 +38,13 @@ create trigger Atualiza_Pedido_Exame
 		begin
 				update pedido_exame set valor_pagar = @prc - @prc * 100 / 100 where numero_pedido = @num_ped;
 		end
-		-- plano Padr�o
-		if @tp_plan = 'Padr�o'
+		-- plano Padrão
+		if @tp_plan = 'Padrão'
 		begin
 				update pedido_exame set valor_pagar = @prc - @prc * 30 / 100 where numero_pedido = @num_ped;
 		end
-		-- plano B�sico
-		if @tp_plan = 'B�sico'
+		-- plano Básico
+		if @tp_plan = 'Básico'
 		begin
 				update pedido_exame set valor_pagar = @prc - @prc * 10 / 100 where numero_pedido = @num_ped;
 		end
