@@ -11,8 +11,8 @@ Este guia é voltado para alunos que desejam aprender e aplicar técnicas de aut
 ## 1. Pré-requisitos
 Antes de começar, você precisa garantir que tenha os seguintes pré-requisitos instalados:
 
- - Banco de dados: [SSMS](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms)
- - Linguagem de Programação: SQL
+ - Ferramenta de Banco de dados: [SSMS](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms)
+ - Servidor: [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
 
 ## 2. Stored-Procedure
 No SQL Server, uma Procedure (ou Procedimento Armazenado) é um conjunto de comandos SQL pré-compilados e armazenados no banco de dados. 
